@@ -204,26 +204,24 @@ body {
       body section .wrap article {
         width: calc(100% / 2); } }
 @media screen and (max-width: 539px) {
-  body header {
-    width: 90%;
-    padding: 15px;
-    background: #fff;
-    position: absolute;
-    top: 4vh;
-    left: 5%;
-    z-index: 2;
+  body header h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; }
+  body header nav {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    opacity: 0.7; }
-    body header h1 {
-      font: bold 20px/1  'Montserrat', sans-serif;
-      color: #222;
-      margin: 0px 3vw; }
+    justify-content: center;
+    align-items: center; }
+    body header nav #gnb li {
+      position: relative;
+      margin-right: 2vw; }
+      body header nav #gnb li:last-child {
+        margin-right: 0vw; }
   body section .filter li {
     margin-right: 20px; }
     body section .filter li a {
-      font: bold 14px/1 'Montserrat', sans-serif; }
+      font: bold 13px/1 'Montserrat', sans-serif; }
   body section .wrap {
     width: 100%;
     margin-top: 20px; }
