@@ -178,19 +178,6 @@ section {
         height: 100%; }
         section .wrap article .inner img {
           width: 100%; }
-        section .wrap article .inner::after {
-          content: "";
-          display: block;
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          top: 0px;
-          left: 0px;
-          background: rgba(0, 0, 0, 0.2);
-          opacity: 0;
-          transition: 0.5s; }
-        section .wrap article .inner:hover::after {
-          opacity: 1; }
 
 @media screen and (max-width: 1179px) {
   .wrap {
