@@ -105,8 +105,9 @@ body {
             background: #555;
             position: absolute;
             bottom: 0px;
-            left: 0px;
-            margin: -15px 142px; }
+            left: 50%;
+            margin: -15px auto;
+            transform: translateX(-50%); }
         body figure .inner .box p {
           font: bold 14px/1  'Montserrat', sans-serif;
           color: #555; }
@@ -184,7 +185,7 @@ body {
             body section .wrap article .inner img:hover {
               box-shadow: 10px 10px 15px rgba(169, 184, 184, 0.8); }
 
-@media screen and (max-width: 1179px) {
+@media screen and (max-width: 1599px) {
   body section .wrap {
     width: 100%; }
     body section .wrap article {
@@ -195,6 +196,19 @@ body {
     body section .wrap article {
       width: calc(100% / 3); } }
 @media screen and (max-width: 679px) {
+  body figure {
+    width: 100%;
+    height: 600px; }
+    body figure .inner {
+      width: 55%;
+      height: 25vh; }
+      body figure .inner .box {
+        width: 96.5%;
+        height: 95%; }
+        body figure .inner .box h1 {
+          font: bold 23px/1  'Montserrat', sans-serif; }
+        body figure .inner .box p {
+          font: bold 12px/1  'Montserrat', sans-serif; }
   body section {
     padding: 20px; }
     body section .filter li {
@@ -207,7 +221,7 @@ body {
   body header h1 {
     width: 100%;
     text-align: center;
-    margin-bottom: 10px; }
+    margin-bottom: 15px; }
   body header nav {
     width: 100%;
     display: flex;
@@ -218,10 +232,29 @@ body {
       margin-right: 2vw; }
       body header nav #gnb li:last-child {
         margin-right: 0vw; }
-  body section .filter li {
-    margin-right: 20px; }
-    body section .filter li a {
-      font: bold 13px/1 'Montserrat', sans-serif; }
+  body figure {
+    width: 100%;
+    height: 600px; }
+    body figure .inner {
+      width: 55%;
+      height: 23vh; }
+      body figure .inner .box {
+        width: 96.5%;
+        height: 95%;
+        padding: 50px 0px; }
+        body figure .inner .box h1 {
+          font: bold 18px/1  'Montserrat', sans-serif; }
+          body figure .inner .box h1::after {
+            width: 35px;
+            margin: -14.5px auto; }
+        body figure .inner .box p {
+          font: bold 10px/1  'Montserrat', sans-serif; }
+  body section .filter {
+    padding: 0px; }
+    body section .filter li {
+      margin-right: 15px; }
+      body section .filter li a {
+        font: bold 12px/1 'Montserrat', sans-serif; }
   body section .wrap {
     width: 100%;
     margin-top: 20px; }
