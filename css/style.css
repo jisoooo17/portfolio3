@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@200&family=Raleway:wght@300&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -52,21 +52,6 @@ body {
         body header nav #gnb li a {
           font: bold 16px/1  'Montserrat', sans-serif;
           color: #222; }
-          body header nav #gnb li a::before {
-            content: "";
-            display: block;
-            position: absolute;
-            bottom: -2px;
-            left: 0px;
-            width: 0%;
-            height: 0px;
-            background: #777;
-            opacity: 0;
-            transition: 0.5s; }
-          body header nav #gnb li a:hover::before {
-            width: 100%;
-            height: 1px;
-            opacity: 1; }
   body figure {
     width: 100%;
     height: 700px;
@@ -187,7 +172,7 @@ body {
             position: absolute;
             bottom: 15%;
             left: 0px;
-            font: bold 14px/1.5  'Montserrat', sans-serif;
+            font: 16px/1.5  'Comfortaa', cursive;
             color: #fff;
             padding: 0px 20px;
             opacity: 0;
@@ -201,7 +186,7 @@ body {
             position: absolute;
             top: 0px;
             left: 0px;
-            background: linear-gradient(to top, #56f1e9d0, transparent);
+            background: linear-gradient(to top, #54dfd8d0, transparent);
             opacity: 0;
             transition: 0.5s;
             z-index: 1; }
