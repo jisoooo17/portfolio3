@@ -178,12 +178,35 @@ body {
         position: relative; }
         body section .wrap article .inner {
           width: 100%;
-          height: 100%; }
+          height: 100%;
+          position: relative;
+          transition: 0.5s; }
           body section .wrap article .inner img {
+            width: 100%; }
+          body section .wrap article .inner p {
+            position: absolute;
+            bottom: 20%;
+            left: 0px;
+            font: bold 14px/1.5  'Montserrat', sans-serif;
+            color: #fff;
+            padding: 0px 20px;
+            opacity: 0;
+            transition: 0.5s;
+            z-index: 2; }
+          body section .wrap article .inner::after {
+            content: "";
+            display: block;
             width: 100%;
-            transition: 0.5s; }
-            body section .wrap article .inner img:hover {
-              box-shadow: 10px 10px 15px rgba(169, 184, 184, 0.8); }
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: linear-gradient(to top, #56f1e9d0, transparent);
+            opacity: 0;
+            transition: 0.5s;
+            z-index: 1; }
+          body section .wrap article .inner:hover::after, body section .wrap article .inner:hover p {
+            opacity: 1; }
 
 @media screen and (max-width: 1599px) {
   body section .wrap {
